@@ -1,0 +1,24 @@
+# caution: bin_numb should be 2^n+1.
+# -----------------------------------------
+# Python package 'hmf' takes a model
+# name with a upper-case first letter.
+# -----------------------------------------
+# As for 'colossus', it take the lower-case
+# one
+# -----------------------------------------
+# MASSDEF defines which mass definition is
+# set: 200c, 200m, or vir.
+
+HMFCOSMO     Planck15
+HMFMODEL     Tinker10
+COLOCOSMO    planck15
+BIASMODEL    tinker10
+CONCMODEL    diemer19
+MASSDEF      200m
+M_min        8
+M_max        16
+bin_numb     1025
+z_min        0.
+z_max        1.
+k_min        1e-3
+k_max        1.
